@@ -9,7 +9,8 @@ public class Employee{
     private int yearOfBirth;
     private boolean onLeave;
     private double hourlyWage;
-    private double unpaidHours;
+    private double unpaidHours; setter = 0;
+                                getter = calculatePay();
 
     public Employee(String fullname, int yearOfBirth, double hourlyWage){
         this.fullname = fullname;
@@ -31,20 +32,35 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        if (age<16) {// to be completed
+            System.out.println(Employee + "can drive.");
+    } else {System.out.println(Employee + "must be above 16 years old, before driving.");
     }
+}
+public canDrive() {
+    return Employee + "age:" + age;
+}
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        tax = 30;
+        hourlyWage = 10;
+        paySalary = 100;
+        (paySalary - tax = totalPaycheck); // to be completed
+        System.out.println("Total salary is" + totalPaycheck);
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        this.fullname = John Deere;
+        this.hourlywage = 0;
+        calculatePay = 70;
+        System.out.println(fullname + "has received a wire transer of" + calculatePay);
+        
+        unpaidHours = 0;// to be completed
     }
 }
