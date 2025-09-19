@@ -57,7 +57,7 @@ public void canDrive() {
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        this.fullname = John Deere;
+        this.fullname = "John Deere";
         this.hourlywage = 0;
         calculatePay = 70;
         System.out.println(fullname + "has received a wire transer of" + calculatePay);
