@@ -37,7 +37,8 @@ public class Employee{
     } else {System.out.println(Employee + "must be above 16 years old, before driving.");
     }
 }
-public canDrive() {
+
+public void canDrive() {
     return Employee + "age:" + age;
 }
 
@@ -48,7 +49,7 @@ public canDrive() {
         tax = 30;
         hourlyWage = 10;
         paySalary = 100;
-        (paySalary - tax = totalPaycheck); // to be completed
+        paySalary - tax = totalPaycheck; // to be completed
         System.out.println("Total salary is" + totalPaycheck);
     }
 
